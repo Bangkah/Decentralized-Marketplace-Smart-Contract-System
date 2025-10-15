@@ -1,0 +1,50 @@
+# =========================
+# Node.js / Hardhat Project
+# =========================
+
+# Folder dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+cache/
+artifacts/
+
+# Environment variables (SANGAT PENTING!)
+.env
+.env.*
+!.env.example     # boleh disertakan sebagai contoh kosong
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage folders
+coverage/
+coverage.json
+
+# Hardhat specific
+typechain/
+typechain-types/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editors
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.log
+*.tsbuildinfo
+
+# Optional: ignore private keys, wallet backup
+*.secret
+*.key
+wallet-backup/
